@@ -1,1 +1,1 @@
-# wallet graphics
+# WalletGraphics
