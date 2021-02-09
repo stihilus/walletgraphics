@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+    <body class="mainDiv">
+        <div class="headerMenu">
+            <div class="headerLogo">
+                <a class="link">
+                    <h3 class="logoText">WalletGraphics</h3>
+                </a>
+            </div>
+            <div class="headerLogo">
+                <a class="link">
+                    <h3 class="headerMenuLink">About</h3>
+                </a>
+            </div>
+        </div>
+        <div class="mainSection">
+            <p class="textParagraph">Enter your ETH address:</p>
+            <!-- input -->
+            <input placeholder="Address" class="inputAddress" id="addressFromInput" type="text">
+            <!-- btn -->
+            <button class="buttonGenerate" type="submit" value="Submit" onclick="showData()">GENERATE</button>
+            <div class="divForp5jsSketch">
+              <!-- P5.JS START -->
+              <div id="sketch-holder"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footerDiv">
+                <a>
+                    <p class="footerLink">About project</p>
+                </a>
+            </div>
+        </div>
+    
+
+</body></html>

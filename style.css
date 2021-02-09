@@ -1,0 +1,107 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.headerMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.headerLogo {
+    max-width: 50%;
+}
+
+.headerMenuLink {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #ffffff;
+}
+
+.logoText {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainSection {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.textParagraph {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.inputAddress {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    font-weight: 200;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.buttonGenerate {
+    border-style: none;
+    background-color: #e0e0e0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+}
+
+.buttonGenerate:hover {
+    background-color: #f0f0f0;
+}
+
+.footer {
+    height: 100px;
+    background-color: #e0e0e0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerDiv {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerLink {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.divForp5jsSketch {
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 30px;
+}
