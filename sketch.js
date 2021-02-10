@@ -4,7 +4,7 @@ function setup() {
   var canvas = createCanvas(canvasWidth, canvasHeight);
   var address = ('waiting');
   canvas.parent('sketch-holder');
-  background(215);
+  background(255);
 
 }
 
