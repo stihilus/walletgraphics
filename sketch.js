@@ -30,43 +30,69 @@ function showData() {
 
   // clear canvas
   background(215);
+  print('------------- Walletgraphics -------------');
 
   // BACKGROUND 3. nubmer ------------------------
   // background assets
-  var bgdAssets = [bgd01, bgd02, bgd03, bgd04, bgd05, bgd06, bgd07, bgd08, bgd09, bgd10];
-  // 3. nubmer picker BACKGROUND
+  var bgdAssets = [bgd01, bgd02, bgd03, bgd04, bgd05];
+  // 3. nubmer BACKGROUND picker
   // maping 3. nubmer to pick asset from bgdAssets[] //
-  var bgdBackground = Math.floor(map(valueMap[2], 0, 540, 0, 9));
+  var printBgd = Math.floor(map(valueMap[2], 0, 540, 0, 4));
   //printing background image
-  image(bgdAssets[bgdBackground], 0, 0);
+  image(bgdAssets[printBgd], 0, 0);
+  print('3. Char is: ' + splitAddress[2] + ' | Background: ' + printBgd);
+  
+  // Body 4. nubmer ------------------------
+  // Body assets
+  var BodyAssets = [body01, body02, body03, body04, body05];
+  // 4. nubmer BODY picker
+  // maping 4. nubmer to pick asset from bgdAssets[] //
+  var printBody = Math.floor(map(valueMap[3], 0, 540, 0, 4));
+  //printing background image
+  image(BodyAssets[printBody], 0, 0);
+  print('4. Char is: ' + splitAddress[3] + ' | Body: ' + printBody);
+  
+  // Body 8. nubmer ------------------------
+  // Body assets
+  var MouthAssets = [mouth01, mouth02, mouth03, mouth04, mouth05];
+  // 4. nubmer BODY picker
+  // maping 4. nubmer to pick asset from bgdAssets[] //
+  var printMouth = Math.floor(map(valueMap[7], 0, 540, 0, 4));
+  //printing background image
+  image(MouthAssets[printMouth], 0, 0);
+  print('8. Char is: ' + splitAddress[7] + ' | Mouth: ' + printMouth);
+  
+  // Eyes 5. nubmer ------------------------
+  // Eyes assets
+  var EyesAssets = [eyes01, eyes02, eyes03, eyes04, eyes05];
+  // 5. nubmer BODY picker
+  // maping 5. nubmer to pick asset from bgdAssets[] //
+  var printEyes = Math.floor(map(valueMap[4], 0, 540, 0, 4));
+  //printing background image
+  image(EyesAssets[printEyes], 0, 0);
+  print('5. Char is: ' + splitAddress[4] + ' | Eyes: ' + printEyes);
+  
+  // FaceAdd 6. nubmer ------------------------
+  // FaceAdd
+  var faceAddAssets = [faceAdd01, faceAdd02, faceAdd03, faceAdd04, faceAdd05];
+  // 6. nubmer Hair picker
+  // maping 6. nubmer to pick asset from bgdAssets[] //
+  var printFaceAdd = Math.floor(map(valueMap[5], 0, 540, 0, 4));
+  //printing background image
+  image(faceAddAssets[printFaceAdd], 0, 0);
+  print('6. Char is: ' + splitAddress[5] + ' | FaceAdd: ' + printFaceAdd);
 
+  // Hair 7. nubmer ------------------------
+  // Hair assets
+  var hairAssets = [hair01, hair02, hair03, hair04, hair05];
+  // 7. nubmer Hair picker
+  // maping 7. nubmer to pick asset from bgdAssets[] //
+  var printHair = Math.floor(map(valueMap[6], 0, 540, 0, 4));
+  //printing background image
+  image(hairAssets[printHair], 0, 0);
+  print('7. Char is: ' + splitAddress[6] + ' | Hair: ' + printHair);
+  
 
-  // Load assets to  ------------------------
-  var Assets = [asset01, asset02, asset03, asset04, asset05, asset06, asset07, asset08, asset09, asset10, asset11, asset12, asset13, asset14, asset15];
-  
-  // ASSET 01 ---- 4. number choose asset - 5. loc X - 6. loc Y
-  var assetPrint = Math.floor(map(valueMap[3], 0, 540, 0, 15));
-  image(Assets[assetPrint], valueMap[4], valueMap[5]);
-
-  // ASSETS 02 ---- 7. number - choose asset - 8. loc X - 9. loc Y
-  var assetPrint = Math.floor(map(valueMap[6], 0, 540, 0, 15));
-  image(Assets[assetPrint], valueMap[6], valueMap[7]);
-  
-  // ASSETS 03 ---- 10. number - choose asset - 11. loc X - 12. loc Y
-  var assetPrint = Math.floor(map(valueMap[9], 0, 540, 0, 15));
-  image(Assets[assetPrint], valueMap[10], valueMap[11]);
-  
-  // ASSETS 04 ---- 13. number - choose asset - 14. loc X - 15. loc Y
-  var assetPrint = Math.floor(map(valueMap[12], 0, 540, 0, 15));
-  image(Assets[assetPrint], valueMap[13], valueMap[14]);
-  
-  // ASSETS 05 ---- 16. number - choose asset - 17. loc X - 18. loc Y
-  var assetPrint = Math.floor(map(valueMap[15], 0, 540, 0, 15));
-  image(Assets[assetPrint], valueMap[16], valueMap[17]);
-  
-  // ASSETS 06 ---- 19. number - choose asset - 20. loc X - 21. loc Y
-  var assetPrint = Math.floor(map(valueMap[18], 0, 540, 0, 15));
-  image(Assets[assetPrint], valueMap[19], valueMap[20]);
 
 }
 

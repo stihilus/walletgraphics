@@ -1,29 +1,39 @@
 // Loading all images from /assets folder
 function preload() {
-  bgd01 = loadImage("assets/bgd1.png");
-  bgd02 = loadImage("assets/bgd2.png");
-  bgd03 = loadImage("assets/bgd3.png");
-  bgd04 = loadImage("assets/bgd4.png");
-  bgd05 = loadImage("assets/bgd5.png");
-  bgd06 = loadImage("assets/bgd6.png");
-  bgd07 = loadImage("assets/bgd7.png");
-  bgd08 = loadImage("assets/bgd8.png");
-  bgd09 = loadImage("assets/bgd9.png");
-  bgd10 = loadImage("assets/bgd10.png");
+
+  bgd01 = loadImage("assets/Background01.png");
+  bgd02 = loadImage("assets/Background02.png");
+  bgd03 = loadImage("assets/Background03.png");
+  bgd04 = loadImage("assets/Background04.png");
+  bgd05 = loadImage("assets/Background05.png");
   
-  asset01 = loadImage("assets/asset1.png");
-  asset02 = loadImage("assets/asset2.png");
-  asset03 = loadImage("assets/asset3.png");
-  asset04 = loadImage("assets/asset4.png");
-  asset05 = loadImage("assets/asset5.png");
-  asset06 = loadImage("assets/asset6.png");
-  asset07 = loadImage("assets/asset7.png");
-  asset08 = loadImage("assets/asset8.png");
-  asset09 = loadImage("assets/asset9.png");
-  asset10 = loadImage("assets/asset10.png");
-  asset11 = loadImage("assets/asset11.png");
-  asset12 = loadImage("assets/asset12.png");
-  asset13 = loadImage("assets/asset13.png");
-  asset14 = loadImage("assets/asset14.png");
-  asset15 = loadImage("assets/asset15.png");
+  body01 = loadImage("assets/Body01.png");
+  body02 = loadImage("assets/Body02.png");
+  body03 = loadImage("assets/Body03.png");
+  body04 = loadImage("assets/Body04.png");
+  body05 = loadImage("assets/Body05.png");
+  
+  mouth01 = loadImage("assets/mouth01.png");
+  mouth02 = loadImage("assets/mouth02.png");
+  mouth03 = loadImage("assets/mouth03.png");
+  mouth04 = loadImage("assets/mouth04.png");
+  mouth05 = loadImage("assets/mouth05.png");
+  
+  eyes01 = loadImage("assets/Eyes01.png");
+  eyes02 = loadImage("assets/Eyes02.png");
+  eyes03 = loadImage("assets/Eyes03.png");
+  eyes04 = loadImage("assets/Eyes04.png");
+  eyes05 = loadImage("assets/Eyes05.png");
+  
+  hair01 = loadImage("assets/Hair01.png");
+  hair02 = loadImage("assets/Hair02.png");
+  hair03 = loadImage("assets/Hair03.png");
+  hair04 = loadImage("assets/Hair04.png");
+  hair05 = loadImage("assets/Hair05.png");
+  
+  faceAdd01 = loadImage("assets/FaceAdd01.png");
+  faceAdd02 = loadImage("assets/FaceAdd02.png");
+  faceAdd03 = loadImage("assets/FaceAdd03.png");
+  faceAdd04 = loadImage("assets/FaceAdd04.png");
+  faceAdd05 = loadImage("assets/FaceAdd05.png");
 }
