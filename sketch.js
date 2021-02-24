@@ -29,70 +29,66 @@ function showData() {
   }
 
   // clear canvas
-  background(215);
+  background(255);
   print('------------- Walletgraphics -------------');
-
-  // BACKGROUND 3. nubmer ------------------------
+  
+  // 7. nubmer ------------------------
   // background assets
-  var bgdAssets = [bgd01, bgd02, bgd03, bgd04, bgd05];
+  var bgdAssets = [img21, img22, img23, img24, img25];
+  // 7. nubmer BACKGROUND picker
+  // maping 7. nubmer to pick asset from bgdAssets[] //
+  var printBgd = Math.floor(map(valueMap[6], 0, 540, 0, 4));
+  //printing background image
+  image(bgdAssets[printBgd], 0, 0);
+  print('7. Char is: ' + splitAddress[6] + ' | Background: ' + printBgd);
+
+  // 3. nubmer ------------------------
+  // background assets
+  var bgdAssets = [img01, img02, img03, img04, img05];
   // 3. nubmer BACKGROUND picker
   // maping 3. nubmer to pick asset from bgdAssets[] //
   var printBgd = Math.floor(map(valueMap[2], 0, 540, 0, 4));
   //printing background image
   image(bgdAssets[printBgd], 0, 0);
   print('3. Char is: ' + splitAddress[2] + ' | Background: ' + printBgd);
-  
-  // Body 4. nubmer ------------------------
-  // Body assets
-  var BodyAssets = [body01, body02, body03, body04, body05];
-  // 4. nubmer BODY picker
+
+  // 4. nubmer ------------------------
+  // background assets
+  var bgdAssets = [img06, img07, img08, img09, img10];
+  // 4. nubmer BACKGROUND picker
   // maping 4. nubmer to pick asset from bgdAssets[] //
-  var printBody = Math.floor(map(valueMap[3], 0, 540, 0, 4));
+  var printBgd = Math.floor(map(valueMap[3], 0, 540, 0, 4));
   //printing background image
-  image(BodyAssets[printBody], 0, 0);
-  print('4. Char is: ' + splitAddress[3] + ' | Body: ' + printBody);
+  image(bgdAssets[printBgd], 0, 0);
+  print('4. Char is: ' + splitAddress[3] + ' | Background: ' + printBgd);
   
-  // Body 8. nubmer ------------------------
-  // Body assets
-  var MouthAssets = [mouth01, mouth02, mouth03, mouth04, mouth05];
-  // 4. nubmer BODY picker
-  // maping 4. nubmer to pick asset from bgdAssets[] //
-  var printMouth = Math.floor(map(valueMap[7], 0, 540, 0, 4));
-  //printing background image
-  image(MouthAssets[printMouth], 0, 0);
-  print('8. Char is: ' + splitAddress[7] + ' | Mouth: ' + printMouth);
-  
-  // Eyes 5. nubmer ------------------------
-  // Eyes assets
-  var EyesAssets = [eyes01, eyes02, eyes03, eyes04, eyes05];
-  // 5. nubmer BODY picker
+  // 5. nubmer ------------------------
+  // background assets
+  var bgdAssets = [img11, img12, img13, img14, img15];
+  // 5. nubmer BACKGROUND picker
   // maping 5. nubmer to pick asset from bgdAssets[] //
-  var printEyes = Math.floor(map(valueMap[4], 0, 540, 0, 4));
+  var printBgd = Math.floor(map(valueMap[4], 0, 540, 0, 4));
   //printing background image
-  image(EyesAssets[printEyes], 0, 0);
-  print('5. Char is: ' + splitAddress[4] + ' | Eyes: ' + printEyes);
+  image(bgdAssets[printBgd], 0, 0);
+  print('5. Char is: ' + splitAddress[4] + ' | Background: ' + printBgd);
   
-  // FaceAdd 6. nubmer ------------------------
-  // FaceAdd
-  var faceAddAssets = [faceAdd01, faceAdd02, faceAdd03, faceAdd04, faceAdd05];
-  // 6. nubmer Hair picker
+  // 6. nubmer ------------------------
+  // background assets
+  var bgdAssets = [img16, img17, img18, img19, img20];
+  // 6. nubmer BACKGROUND picker
   // maping 6. nubmer to pick asset from bgdAssets[] //
-  var printFaceAdd = Math.floor(map(valueMap[5], 0, 540, 0, 4));
+  var printBgd = Math.floor(map(valueMap[5], 0, 540, 0, 4));
   //printing background image
-  image(faceAddAssets[printFaceAdd], 0, 0);
-  print('6. Char is: ' + splitAddress[5] + ' | FaceAdd: ' + printFaceAdd);
-
-  // Hair 7. nubmer ------------------------
-  // Hair assets
-  var hairAssets = [hair01, hair02, hair03, hair04, hair05];
-  // 7. nubmer Hair picker
-  // maping 7. nubmer to pick asset from bgdAssets[] //
-  var printHair = Math.floor(map(valueMap[6], 0, 540, 0, 4));
-  //printing background image
-  image(hairAssets[printHair], 0, 0);
-  print('7. Char is: ' + splitAddress[6] + ' | Hair: ' + printHair);
+  image(bgdAssets[printBgd], 0, 0);
+  print('6. Char is: ' + splitAddress[5] + ' | Background: ' + printBgd);
   
-
+  // Frame
+  image(img26, 0, 0);
+  // Print Address
+  textSize(20);
+  text(addressFromInput,43,1035)
+  fill(30);
+  
 
 }
 
